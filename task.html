@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <link rel="stylesheet" href="./task.css">
+    <style>
+        .parent {
+            display: flex;
+            gap: 100px;
+            margin-top: 10px;
+            padding: 30px;
+        }
+
+        .left-content {
+            width: 80%;
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
+            display: flex;
+            padding: 12px;
+
+        }
+
+        .left-content a {
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 20px;
+            color: black;
+            border-top: 1px solid black;
+            border-bottom: none;
+            padding: 10px;
+
+
+        }
+
+        .right-content {
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            border-top: 1px solid black;
+            padding: 10px;
+            gap: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="nav-status">
+        <!-- Search Bar Section -->
+        <div class="nav-bar">
+            <img src="./211817_search_strong_icon.png" alt="Search Bar Icon" class="img">
+            <input type="text" placeholder="Search here" name="search" id="search-bar">
+            <label for="search-bar">Go</label>
+        </div>
+
+        <!-- Navigation Links Section -->
+        <div>
+            <ul class="mark_one">
+                <li><a href="#US">US</a></li>
+                <li><a href="#international">International</a></li>
+                <li><a href="#Canada">Canada</a></li>
+            </ul>
+        </div>
+
+        <!-- Subscription and Login Section -->
+        <div>
+            <ul class="last">
+                <li><a href="#subscribe">Subscribe for $0.25 / Week</a></li>
+                <li><a href="#log-in">Log in</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="change">
+        <p>Wednesdayv , november26,2024 <br>Today's paper</p>
+        <h1>The New York Times</h1>
+    </div>
+    <div>
+        <ul class="trans">
+            <li><a href="#u.s">U.S</a></li>
+            <li><a href="#world">World</a></li>
+            <li><a href="#business">Business</a></li>
+            <li><a href="#Arts">Arts</a></li>
+            <li><a href="#lifestyle">lifestyle</a></li>
+            <li><a href="#Opinion">Opinion</a></li>
+            <li><a href="Audio">Audio</a></li>
+            <li><a href="#Games">Games</a></li>
+            <li><a href="#Cooking">Cooking</a></li>
+            <li><a href="#Wirecutter">Wirecutter</a></li>
+            <li><a href="#The athelatic">The athelatic</a></li>
+        </ul>
+    </div>
+    <div>
+        <hr>
+        <hr>
+    </div>
+
+    <div class=" container">
+        <div class="left-contianer">
+            <div class="child-left">
+                <h2><a href="#">For Rising Democrats,The Quiet Race to Lead the Party Began Months Ago</a></h2>
+                <br>
+                <p>As kamala Harris took the spotlight ambitious Democrates were building relationships that could pay
+                    dividends in the fight for the party future.</p> <br>
+
+                <div><strong><a href="#">Democrates Weigh Dumping Nadler Regrouping to Counter Trump</a></strong></div>
+            </div>
+            <div class="child-rigth"> <img src="./obama.jpg" alt="politics" style="height:50vh; width: 100%;"></div>
+        </div>
+        <div class="right-container">
+            <div><img src="./margo.jpg" alt="margo" style="width: 100%; height: 50vh;">
+                <h2><a href="#">Margo Martindale Pour it on in the Sticky</a></h2>
+                <p>The esteemed Character actress has spent decades enlivening films and series.In this new heist comedy
+                    she
+                    is first on the call sheet</p>
+            </div>
+            <div class="stage-one">
+                <div> <img src="./ran.jpg" alt="" style="height: 150px; width: 150px;"><br>
+                    <a href="#">In Ran Into My Horrible Ex in My Therapist's Waiting Room. Help !</a>
+                </div>
+                <div><img src="./beard-man.jpg" alt="beard-man" style="height:150px;width: 150px;"><br>
+                    <a href="#">Did the World Need a Host Santa ? It Got One Anyway.</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="section-two">
+        <div class="main">
+            <div>
+                <h2><a href="#">Mexican Cartels Lure Chemistry Student to Make Fentanyl</a></h2> <br>
+                <p>Criminals turn college campuses into recruitment hubs, recruiting chemistry students in Mexico with
+                    big
+                    paydays.</p>
+            </div>
+            <div><img src="./maxican.jpg" alt="criminal"></div>
+        </div>
+        <div class="side">
+            <div class="morph">
+                <h3><a href="#">Pets Hegseth's Mother Accused Her Son of Mistreating Women for Years</a></h3>
+                <img src="./pet-jpg.jpg" alt="" style="height: 100px; width: 100px;">
+            </div>
+            <div class="morph">
+                <h3><a href="#">Everyone Thought We Were Going to Die Living With Flight Trauma.</a></h3>
+                <img src="./FLIGHT-INCIDENT.jpg" alt="" style="height: 100px; width: 100px;">
+            </div>
+            <div class="morph">
+                <h3><a href="#">The Teeny , Tiny Tee Is Back (Again)
+                        Consumers can by form near by store
+                    </a></h3>
+                <img src="./teeny-jpg.jpg" alt="" style="height: 100px; width: 100px;">
+            </div>
+            <div class="morph">
+                <h3><a href="#"> A Drinking Habit That's More Dangerous Then Bingening</a></h3>
+                <img src="./drink-jpg.jpg" alt="" style="height: 100px; width: 100px;">
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="section-three">
+        <div class="part-one">
+            <div>
+                <h3><a href="#">France's Prime Minister Is on the Block And Marine Le Pen Hold The Blade</a></h3><br>
+                <p> The end of Michel Bernier's government looks inevitable. even imminent ,and would add to the
+                    country's
+                    political malaise. How long he can last ?</p>
+            </div>
+            <img src="./france-prime.jpg" alt="">
+        </div>
+        <div class="side-part">
+            <div class="trans">
+                <h3><a href="#">Mark Zuckerberg serene con Trump en Mar-a-Logo</a></h3>
+                <img src="./mark-jpg.jpg" alt="" style="height: 100px; width: 100px;">
+            </div>
+            <div class="trans">
+                <h3>Bodhi, the 'shiba inu' who conquered the catwalks, dies at 15</h3>
+                <img src="./dog-jpg.jpg" alt="" style="height: 100px; width: 100px;">
+            </div>
+            <div class="trans">
+                <h3> Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi doloremque quos tempora nostrum
+                    tempore</h3>
+                <img src="./plane-jp.jpg" alt="" style="height: 100px;width: 100px;">
+
+            </div>
+
+        </div>
+    </div>
+
+    <hr><br>
+    <h2>well</h2>
+    <div class="img-sec">
+        <div><img src="./Dc-jpg.jpg" alt="" style="height: 180px;width: 180px; border-radius: 20px;"><br>
+            <h3><a href="#">What Doctors Want you to Know About Beta Blockers for Anxiety</a></h3>
+        </div>
+        <div><img src="./fruits-jpg.jpg" alt="" style="height: 180px;width: 180px; border-radius: 10px;"><br>
+            <h3><a href="#">How a Nutrition Expert Really Eats.</a></h3>
+        </div>
+        <div><img src="./wine-jpg.jpg" alt="" style="height: 180px;width: 180px; border-radius: 10px;"><br>
+            <h3><a href="#">The Science Behind the Dreaded Red Wine Headache.</a></h3>
+        </div>
+        <div><img src="./nap-jpg.jpg" alt="" style="height: 180px; width: 180px; border-radius: 10px;"><br>
+            <h3><a href="#">The Secrets of a Successful Nap.</a></h3>
+        </div>
+        <div><img src="./health-jpg.jpg" alt="" style="height: 180px; width: 180px; border-radius: 10px;"><br>
+            <h3><a href="#">She Was Scratching Her Arms Raw. Would Anything Stop This Itch?
+                </a></h3>
+        </div>
+    </div>
+    <hr> <br>
+    <h2> Games (Daily Puzzle)</h2>
+    <div class="over">
+        <div class="upper">
+            <div class="out">
+                <div>
+                    <h3>Wordle </h3>
+                    <p>Guess the 5 letter with 6 chances.</p>
+                </div>
+                <img src="./world-jpg.jpg" alt="wordle" style="height: 100px; width: 100px;">
+            </div>
+            <div class="out">
+                <div>
+                    <h3>Connections</h3>
+                    <p>Group words that share a common thread.
+                    </p>
+                </div>
+                <img src="./connection-jpg.jpg" alt="correction" style="height: 100px; width: 100px;">
+            </div>
+
+            <div class="out">
+                <div>
+                    <h3>strands</h3>
+                    <p> uncover hidden words and reveal the theme</p>
+                </div>
+                <img src="./stands-jpg.jpg" alt="strands" style="height: 100px; width: 100px;">
+            </div>
+        </div>
+
+        <div class="upper">
+            <div class="out">
+                <div>
+                    <h3>Spelling Bee</h3>
+                    <p> How many words can you make <br> with 7 letters.</p>
+                </div>
+                <img src="./bee-jpg.jpg" alt="bee" style="height: 100px; width: 100px;">
+                <div>
+                    <h3>The Crossword</h3>
+                    <p> Get Clued in with wordplay, everyday.</p>
+                </div>
+                <img src="./crossroad-jpg.jpg" alt="crossroad" style="height: 100px; width: 100px;">
+                <div>
+                    <h3>The Mini Crossword</h3>
+                    <p> Take a break from the news. Solve this bite-sized <br> puzzle in just a few minutes.</p>
+                </div>
+                <img src="./mini-crossroad-jpg.jpg" alt="minicross" style="height: 100px;width:100px;">
+            </div>
+        </div>
+    </div>
+    <hr>
+    <br>
+
+    <h1>The New York Times</h1>
+
+    <div class="nav">
+        <div>
+            <h2>News</h2> <br>
+            <ul class="list-morph">
+                <li><a href="#Home-page">Home Page</a></li>
+                <li><a href="#U.S">U.s</a></li>
+                <li><a href="#World">World</a></li>
+                <li><a href="#Politcs">Politics</a></li>
+                <li><a href="#New-york">New-York</a></li>
+                <li><a href="Eduacation">Education</a></li>
+                <li><a href="Sports">Sports</a></li>
+                <li><a href="Business">Business</a></li>
+                <li><a href="Tech">Tech</a></li>
+                <li><a href="Sceince">Science</a></li>
+                <li><a href="Weather">Weather</a></li>
+                <li><a href="great-road">The Great Road</a></li>
+                <li><a href="Obituaries">Obituaries</a></li>
+                <li><a href="Headway">Headway</a></li>
+                <li><a href="#visual Investigation">Visual Investigation</a></li>
+                <li><a href="#The Magazine">The Magzine</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h2>Arts</h2> <br>
+            <ul class="list-morph">
+                <li><a href="#Book Review">Book Review</a></li>
+                <li><a href="#Book Review">Best
+                        Seller Book list
+                    </a></li>
+                <li> <a href="#Dance">Dance</a></li>
+                <li> <a href="#Movies">Movies</a></li>
+                <li><a href="#Music">Music</a></li>
+                <li><a href="POp-culture">Pop-Culture</a></li>
+                <li><a href="Television">Television</a></li>
+                <li><a href="Theater">Theater</a></li>
+                <li><a href="#visual arts">Visual Arts</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h2>Life Style</h2><br>
+            <ul class="list-morph">
+                <li><a href="#Health">Health</a></li>
+                <li><a href="Well"></a></li>
+                <li><a href="#food">Food</a></li>
+                <li><a href="#Resturant-Review">Resturant-Review</a></li>
+                <li><a href="#Love">Love</a></li>
+                <li><a href="#Travel"> Travel</a></li>
+                <li><a href="#Style">Style</a></li>
+                <li><a href="#fashion">Fashion</a></li>
+                <li><a href="#Real-state">Real-State</a></li>
+                <li><a href="# T Magzine">T-Magzine</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>Opinion</h2><br>
+            <ul class="list-morph">
+                <li><a href="#Today's Opinion">Today's Opinion</a></li>
+                <li><a href="#Columnists">Columnists</a></li>
+                <li><a href="#Editorials">Editorials </a></li>
+                <li><a href="#Guest Essays">Guest Essays</a></li>
+                <li><a href="#Op-Docs">Op-Docs</a></li>
+                <li><a href="#Letters">Letters</a></li>
+                <li><a href="#Sunday Opinion">Sunday Opinion</a></li>
+                <li><a href="#Opinion Video">Opinion Video</a></li>
+                <li><a href="#Opinion Audio">Opinion Audio</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h2>More</h2> <br>
+            <ul class="list-morph">
+                <li><a href="#Audio">Audio</a></li>
+                <li><a href="#Games">Games</a></li>
+                <li><a href="#Wire-Cutter">Wire-Cutter</a></li>
+                <li><a href="#The Athletic">The Athletic</a></li>
+                <li><a href="#Jobs">Jobs</a></li>
+                <li><a href="#Video">Video</a></li>
+                <li><a href="#Graphics">Graphics</a></li>
+                <li><a href="#Trending">Trending</a></li>
+                <li><a href="# Live Events">Live Events</a></li>
+                <li><a href="#corrections">Corrections</a></li>
+                <li><a href="#Reader Center">Reader Center</a></li>
+                <li><a href="#Time Machine">Time Machine</a></li>
+                <li><a href="# The Learning Network"> The Learning Network</a></li>
+                <li><a href="# School of NYT">School of NYT</a></li>
+                <li><a href="#ineduaciton">InEducation</a></li>
+            </ul>
+        </div>
+    </div>
+    <hr>
+
+    <footer>
+        <a href="#@2024 The new York Times Company">@2024 The new York Times Company</a>
+        <a href="#NYTco">NYTco</a>
+        <a href="Contact us">Contact-us</a>
+        <a href="accessibility"> accessibility</a>
+        <a href=" #work with us"> Work with us</a>
+        <a href="#Advertise">Advertise</a>
+        <a href="#T Brand Studio"></a>
+        <a href="#Your ad Choices">Your ad choices</a>
+        <a href="#Privacy Policy">Privacy Policy</a>
+        <a href="#Terms of Service">Terms ofService</a>
+        <a href="#Terms of Sale">Terms of Sale</a>
+        <a href="#Sit Map">Sit Map</a>
+        <a href="#Help">Help</a>
+        <a href="subscription">Subscription</a>
+    </footer>
+
+
+</body>
+
+</html>
